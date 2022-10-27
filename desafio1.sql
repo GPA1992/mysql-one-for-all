@@ -63,7 +63,7 @@ VALUES
   ('gratuito', 0.00),
   ('familiar', 7.99),
   ('universitário', 5.99),
-  ('pessoal', 699);
+  ('pessoal', 6.99);
   
  INSERT INTO SpotifyClone.usuario (usuario, idade, plano_id, data_assinatura)
 VALUES
