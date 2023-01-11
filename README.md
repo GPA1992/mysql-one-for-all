@@ -1,13 +1,25 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# One For All
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+O projeto One For All é uma aplicação que permite ao usuário manipular um banco de dados em MySQL com informações de músicas e usuários que consomem essas músicas. 
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+O objetivo desse projeto era:
+- Validar meus conhecimentos em SQL
+- JOINS
+- Normalização
+
+Além disso, o projeto foi desenvolvido com o objetivo de praticar o conceito de tabelas relacionais.
+
+## Tecnologias utilizadas
+- MySQL
+- Docker
+
+## Instalação
+
+Para instalar e rodar o projeto, siga os passos abaixo:
+
+1. Faça um clone desse repositório
+2. Entre na pasta do projeto: `cd one-for-all`
+3. Use o docker-compose para subir os containers : `docker-compose up -d`
+4. Acesse o container mysql com : `docker exec -it one_for_all bash`
+5. rode o comando: `npm install`
+
